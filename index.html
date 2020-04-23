@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Test intégration Planète oui</title>
+</head>
+
+<body>
+
+    <section class="container banner ">
+        <img class="logo-banner" src="/images/logo-planete-oui.svg" alt="logo vert planete oui" />
+        <p>Fournisseur d'électricité 100% vert et indépendant depuis 2007 </p>
+        <button class="red">09 71 07 29 03</button>
+
+    </section>
+
+    <section class="container-fluid header">
+        <div class="row ">
+        <div class="col-md-8">
+            <h1>Grâce aux laboratoires Aperture, économisez 20% sur l'abonnement HT et bénéficiez de 45€ offerts pour
+                toute souscription !</h1>
+            <p class="small">Par rapport au tarif règlementé. Offre valable 12 mois. Le cashback est à retrouver sur votre espace
+                client en ligne.
+                Vous pouvez choisir de donner cette cagnotte à nos associations partenaires ou de la déduire d'une
+                prochaine facture.
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <div class="yellow">
+                <p>Votre offre négociée par </p> <img src="/images/logo-aperture.png" alt="logo aperture noir" />
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="container-fluid beige">
+        <div class="row">
+        <div class="col ">
+            <img src="/images/eco.svg" alt="logo tirelire"/>
+            <h2>Jusqu'à -20%</h2>
+            <p>Sur le prix de l'abonnement. De rien, c'est pour nous !</p>
+        </div>
+        <div class="col">
+            <img src="images/simple.svg" alt="logo fleur"/>
+            <h2>Du vert sans revers</h2>
+            <p>Sans engagement, ni frais, ni coupure, ni intervention</p>
+        </div>
+        <div class="col">
+            <img src="images/sav.svg" alt="logo robot"/>
+            <h2>Service client réactif</h2>
+            <p>Basé en France, dans nos locaux à Lille</p>
+
+        </div>
+        <div class="col">
+            <img src="images/ouinners.svg" alt="logo prise" />
+
+            <h2>Déjà 47 000 OUInners</h2>
+            <p>Rejoignez la communauté qui positive l'énergie !</p>
+        </div>
+        <div class="col white sidebar ">
+            <p>Electricité 100% verte </p>
+            <p>Conseiller disponible par téléphone et via la messagerie de votre espace client</p>
+            <p>Souscription en 5 minutes chrono !</p>
+            <button onClick="makeReal()" class="red"><a href="#">J'estime ma facture</a></button>
+        </div>
+    </div>
+    </section>
+
+    <section class="container-fluid ">
+        <div class="row">
+        <div class="col-md-6">
+            <h2>Planète QUI ?
+            </h2>
+            <p>Planète OUI c'est un peu notre ravitailleur du quotidien; un fournisseur alternatif d'électricité 100%
+                verte, 100% positive. C'est aussi une équipe dynamique, composée d'une cinquantaine de profils experts,
+                aussi passionnés qu'engagés. C'est pour notre indépendance et parce qu'on a de l'énergie à revendre que
+                nos 47 000 clients nous font confiance.</p>
+        </div>
+        <div class="col-md-6">
+            <img class="production-white" src="images/production.svg" alt="logo éolienne panneaux solaires" />
+        </div>
+    </div>
+    </section>
+
+    <section class="container-fluid green">
+        <div class="row">
+        <div class="col-md-6">
+            <img class="sav-green" src="images/sav.svg" alt="logo robot" />
+
+        </div>
+        <div class="col-md-6">
+            <h2>Une démarche simple, rapide et gratuite </h2>
+            <p>Vite fait, bien fait. Voilà comment devraient se passer toutes les démarches administratives, non ? Ca
+                tombre bien, rejoindre Planète OUI c'est facile : ça se fait en 5 min, sans engagement et sans frais !
+                Une question ? Contactez notre service client réactif, enthousiaste et basé à Lille, dans nos locaux.
+            </p>
+        </div>
+    </div>
+
+    </section>
+
+
+    <section class="container-fluid">
+        <div class="row row-logos">
+        <div class="col-md-3">
+            <img src="images/logo-planete-oui.svg" alt="logo planete oui"/>
+            <p>Copyright 2018 Planète OUI. Tous droits réservés</p>
+        </div>
+        <div class="col-md-3">
+            <img src="images/logo-entreprise-francaise.png"  alt="logo entreprise francaise"/>
+            <p>Planète OUI, Entreprise française depuis 2007</p>
+
+        </div>
+        <div class="col-md-3">
+            <img src="images/logo-ministere-ecologie.png" alt="logo ministere ecologie"/>
+            <p>Autorisé par le ministère de l'Ecologie, du Développement durable et de l'Energie à l'activité de
+                fournisseur d'électricité</p>
+
+        </div>
+        <div class="col-md-3">
+            <img src="images/avis-verifies.png" alt="logo avis vérifiés" />
+            <p>Nos clients nous recommandent, rejoignez-les !</p>
+        </div>
+    </div>
+    </section>
+
+
+
+    <!--  Make it real in ap.js -->
+    <div id="dealwithit" class="dealwithit d-none">
+        <img src="images/02fdh85.gif" alt="zebra gif" />
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

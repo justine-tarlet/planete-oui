@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "eina01-semibold";
+    src:
+        url('/fonts/eina/Eina01-SemiBold.eot') format('embedded-opentype'),
+        url('/fonts/eina/Eina01-SemiBold.woff') format('woff'),
+        url('/fonts/eina/Eina01-SemiBold.woff2') format('woff2'),
+        url('/fonts/eina/Eina01-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "eina03-regular";
+    src:
+        url('/fonts/eina/Eina01-Regular.eot') format('embedded-opentype'),
+        url('/fonts/eina/Eina01-Regular.woff') format('woff'),
+        url('/fonts/eina/Eina01-Regular.woff2') format('woff2'),
+        url('/fonts/eina/Eina01-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "eina03-bold";
+    src:
+        url('/fonts/eina/Eina03-Bold.eot') format('embedded-opentype'),
+        url('/fonts/eina/Eina03-Bold.woff') format('woff'),
+        url('/fonts/eina/Eina03-Bold.woff2') format('woff2'),
+        url('/fonts/eina/Eina03-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'hand_of_seanregular';
+    src:
+        url('/fonts/handsean/handsean-webfont.woff2') format('woff2'),
+        url('/fonts/handsean/handsean-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,224 @@
+@import 'fonts';
+@import 'dealwithit';
+@import 'colors';
+
+
+// IMAGES
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.sav-green,
+.production-white {
+    width: 80%;
+    height: 50%;
+    padding: 30px;
+    margin-bottom: -98px;
+}
+
+// POLICES
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-family: "eina03-bold";
+}
+h2 {  
+    font-size: 2rem;
+    padding-bottom: 20px;
+    font-family: "eina03-bold";
+
+}
+
+p {
+    font-family: "eina01-semibold";
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+.small{
+    font-size: 1rem;
+}
+// BOUTONS ET LIENS
+
+a { text-decoration: none;
+    color: $white;
+    font-family: "";
+}
+a:visited {
+    color: $white;
+}
+
+button {
+    background-color: $red;
+    color: $white;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 30px;
+    border: none;
+
+  
+
+}
+
+// BANNIERE
+.banner {
+
+    align-items: center;
+
+
+    .logo-banner {
+        width: 100px;
+        height: 100px;
+        padding-right: 30px;
+
+        p {
+            font-size: 1.5rem;
+            font-weight: lighter;
+            padding-right: 30px;
+            text-align: center;
+        }
+    }
+}
+
+
+
+// HEADER
+
+.header {
+    background-color: $black;
+    background-image: url("../images/header-background.jpg");
+    color: $white;
+    background-blend-mode: multiply;
+}
+
+// CONTAINERS PARAMETRES GENERAUX
+.container {
+display: flex;
+flex-direction: row;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+
+
+}
+
+
+
+.container-fluid {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px;
+
+
+}
+
+.row {
+    padding-top: 30px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+
+// CONTAINERS COULEURS
+.green {
+    background-color: $green;
+    color: $white;
+}
+
+
+.beige {
+    background-color: $beige;
+    text-align: center;
+
+    
+
+    p {
+        color: $grey;
+    }
+
+    .sidebar {
+        margin-top: -200px;
+        margin-left: 200px;
+        width: 500;
+    }
+
+    .sidebar p {
+        color: $black;
+        text-align: left;
+    }
+}
+
+.yellow {
+    color: $white;
+    background-color: $yellow;
+    height: auto;
+    width: 400px;
+    padding: 40px;
+   
+    margin-bottom: -90px;
+    
+    text-align: left;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+}
+
+
+.white {
+    background-color: $white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ 
+}
+
+
+
+// PARTIE FOOTER/LOGOS
+
+.row-logos * {
+    padding: 10px;
+    max-width: 320px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+    img {
+        width:140px
+    }
+
+}
+
+//MEDIA QUERIES
+
+
+@media (max-width: 768px) {
+
+    section,
+    .container-fluid,
+    .row {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+
+
+}
